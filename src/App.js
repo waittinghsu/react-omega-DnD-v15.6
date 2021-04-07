@@ -10,6 +10,9 @@ export default class App extends PureComponent {
           <span>151</span>
           <span>151</span>
         </div>
+        <div className="disable py-5" style={{ height: "60px" }}>
+          <span>9559</span>
+        </div>
         <h1>Hello CodeSandbox</h1>
         <h2>Start editing to see so9me magic happen!</h2>
       </div>
