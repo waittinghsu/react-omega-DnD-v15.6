@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import "./style/index.scss";
-import ImageMapperArea from "./components/imageMapperArea";
+import ImageMapperArea from "./components/ImageMapperArea";
 
 export default class App extends PureComponent {
   render() {
