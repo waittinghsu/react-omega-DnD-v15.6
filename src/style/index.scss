@@ -24,3 +24,47 @@
     transparent 75%,
     transparent);
 }
+
+.stripes1 {
+  background-size: 25px 25px;
+  background-color: rgba(31, 2, 30, .3);
+  background-image: linear-gradient( 
+  0deg
+  , transparent 0%, transparent 50%, rgba(200, 0, 0, .2) 50%, rgba(200, 0, 0, .2) 100%), linear-gradient( 
+  90deg
+  , transparent 50%, rgba(200, 0, 0, .2) 50%);
+}
+
+.stripes2 {
+  background-size: 10% 10%;
+  background-color: rgba(31, 2, 30, .3);
+  background-image: linear-gradient( 
+  90deg
+  , rgba(255, 0, 255, .2) 50%, transparent 50%);
+}
+
+.stripes3 {
+  background-size: 30px 30px;
+  background-color: #f90;
+  background-image: linear-gradient( 
+  0deg
+  , rgba(255, 0, 255, .2) 50%, transparent 50%);
+}
+
+.stripes5 {
+  background-size: 26px 26px;
+  background-color: rgba(2, 89, 30, .3);
+  background-image: linear-gradient( 
+  45deg
+  , rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent), linear-gradient( 
+  135deg
+  , rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
+}
+
+.stripes6 {
+  background-size: 26px 26px;
+  background-color: rgba(11, 231, 30, .5);
+  background-image: linear-gradient( 
+  135deg
+  , rgba(255, 255, 255, .3) 20%, transparent 30%, transparent 45%, rgba(255, 255, 255, .3) 55%, rgba(255, 255, 255, .3) 70%, transparent 80%, transparent);
+}
