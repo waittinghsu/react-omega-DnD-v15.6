@@ -16,17 +16,19 @@ export default class App extends PureComponent {
           <span className="disable py-5">151</span>
         </div>
         <body>
-          <div className="d-flex flex-column" style={{ width: "350px" }}>
-            {test.map((v) => (
-              <div className="d-flex flex-row align-center">
-                <span className="px-3" style={{ width: "25px" }}>
-                  {v}
-                </span>
-                <div className="border-sm w-100 gray--bg darken-3 amber--text text-center">
-                  omega{v}omega
+          <div clsssName="d-flex flex-row justify-space-between user-select">
+            <div className="d-flex flex-column" style={{ width: "350px" }}>
+              {test.map((v) => (
+                <div className="d-flex flex-row align-center">
+                  <span className="px-3" style={{ width: "25px" }}>
+                    {v}
+                  </span>
+                  <div className="border-sm w-100 gray--bg darken-3 amber--text text-center">
+                    omega{v}omega
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </body>
       </div>
